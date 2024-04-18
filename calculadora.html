@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="styles/calculadora.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-     <script src="scripts/calculdora.js"></script>
+        <script src="calculadora.js" ></script>
 </head>
 
 <body>
-    <header class="titulo_principal">
+    <header>
         <h1>Trote Solidário Uni-FACEF</h1>
     </header>
     <section class="primeiro">
@@ -34,18 +34,82 @@
         </div>
         <div class="container2">
             <h2 class="titulo">Bem-vindo a Calculadora</h2>
-            <p> Índice de Massa Corpórea </p>
+            <p> Pontuação total em relação as Tarefas do Trote</p>
             <form>
                 <div>
-                    <label for="peso"> Peso</label>
-                    <input type="number" id="peso">
+                    <label for="equipe"> Equipe</label>
+                    <input type="texto" id="equipe">
                 </div>
                 <div>
-                    <label for="altura"> Altura</label>
-                    <input type="number" id="altura">
+                    <label for="kits"> Kits</label>
+                    <input type="number" id="kits">
                 </div>
                 <div>
-                    <button onclick="imc()"> Calcular IMC </button>
+                    <label for="suplementos"> Suplementos</label>
+                    <input type="number" id="suplementos">
+                </div>
+                <div>
+                    <label for="sangue"> Doação de Sangue</label>
+                    <input type="number" id="sangue">
+                </div>
+                <div>
+                    <label for="leite"> Litro de Leite</label>
+                    <input type="number" id="leite">
+                </div>
+                <div>
+                    <label for="social"> Ação Social</label>
+                    <input type="number" id="social">
+                </div>
+                <div>
+                    <label for="apresentação"> Apresentação Musical/Teatro</label>
+                    <input type="number" id="apresentação">
+                </div>
+                <div>
+                    <label for="mascote"> Mascote</label>
+                    <input type="number" id="mascote">
+                </div>
+                <div>
+                    <label for="quiz"> Quiz</label>
+                    <input type="number" id="quiz">
+                </div>
+                <div>
+                    <label for="pontuaçãoextra"> Pontuação Extra</label>
+                    <input type="number" id="pontuaçãoextra">
+                </div>
+                <div>
+                    <label for="kitsextra"> Kits Extra</label>
+                    <input type="number" id="kitsextra">
+                </div>
+                <div>
+                    <label for="suplementosextra"> Suplementos Extras</label>
+                    <input type="number" id="suplementosextra">
+                </div>
+                <div>
+                    <label for="arroz05"> Pacote de Arroz 5kg</label>
+                    <input type="number" id="arroz05">
+                </div>
+                <div>
+                    <label for="arroz01"> Pacote de Arroz 1kg</label>
+                    <input type="number" id="arroz01">
+                </div>
+                <div>
+                    <label for="feijão02"> Pacote de Feijão 2kg</label>
+                    <input type="number" id="feijão02">
+                </div>
+                <div>
+                    <label for="feijão01"> Pacote de Feijão 1kg</label>
+                    <input type="number" id="feijão01">
+                </div>
+                <div>
+                    <label for="macarrão"> Pacote de Macarrão 500 gramas</label>
+                    <input type="number" id="macarrão">
+                </div>
+                <div>
+                    <label for="oleo"> Òleo 500ml</label>
+                    <input type="number" id="oleo">
+                </div>
+                <div>
+                    <button onclick="Pontuação()"> Calcular Pontuação </button>
                 </div>
             </form>
         </div>
